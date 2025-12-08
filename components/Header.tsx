@@ -22,11 +22,11 @@ const Header: React.FC<HeaderProps> = ({ onReset }) => {
           </div>
           
           <div className="flex items-center gap-4">
-            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 text-sm font-medium text-green-600 hover:text-green-700 transition">
+            <a href="https://wa.me/554187912585" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 text-sm font-medium text-green-600 hover:text-green-700 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.02C17.18 3.03 14.69 2 12.04 2zM12.05 19.46c-1.38 0-2.73-.37-3.91-1.07l-.28-.16-2.91.76.77-2.84-.18-.29c-.75-1.18-1.15-2.55-1.15-3.95 0-4.07 3.31-7.38 7.38-7.38 1.97 0 3.83.77 5.22 2.16 1.39 1.39 2.16 3.26 2.16 5.23 0 4.07-3.3 7.38-7.1 7.54z"/>
                 </svg>
-                Contato
+                Contato (Néia)
             </a>
             <button 
                 onClick={onReset}
