@@ -28,13 +28,6 @@ const Header: React.FC<HeaderProps> = ({ onReset }) => {
                 </svg>
                 Contato (Néia)
             </a>
-            <button 
-                onClick={onReset}
-                className="text-xs text-gray-400 hover:text-gray-600 underline"
-                title="Resetar dados locais para demonstração"
-            >
-                Reset App
-            </button>
           </div>
         </div>
       </div>
