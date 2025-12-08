@@ -21,7 +21,7 @@ const ItemCard: React.FC<ItemCardProps> = ({ item, onEdit }) => {
                 <span className="bg-red-500 text-white px-4 py-1 rounded-full font-bold text-sm uppercase tracking-wider transform -rotate-12">Vendido</span>
             </div>
         )}
-        <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+        {/* <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
           <button
             onClick={(e) => {
                 e.preventDefault();
@@ -34,7 +34,7 @@ const ItemCard: React.FC<ItemCardProps> = ({ item, onEdit }) => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
             </svg>
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Content */}
