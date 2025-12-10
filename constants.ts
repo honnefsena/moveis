@@ -1,18 +1,6 @@
 import { FurnitureItem } from './types';
 
-const FURNITURE_DATA = [
-  {
-    "titulo": "Bi-cama com Almofadas – Vira Sofá!",
-    "preco": "R$ 400",
-    "id": "848603517779793",
-    "thumbnail": "https://scontent.fbnu9-1.fna.fbcdn.net/v/t39.84726-6/595701507_5171745403049834_2271818513224879220_n.jpg?stp=c43.0.260.260a_dst-jpg_p261x260_tt6&_nc_cat=109&_nc_sid=92e707&_nc_eui2=AeGOnol6A0_gQxYLiGupE0GZnSOr9Y2Up5idI6v1jZSnmIxGgni6cY6aR9z3xSL9ZCioCwdZZAuaZGShX5kg9VgO&_nc_ohc=JGEV-K03XYcQ7kNvwF2YEZU&_nc_oc=AdlspVss6KHlYmbdsrSUHkufkH8__JYdxMR4R8d7gJOsNxoafbPRf2dqUZwhebnE9VwY_nMZtqJr_snAIPEWblPi&_nc_zt=14&_nc_ht=scontent.fbnu9-1.fna&_nc_gid=x-fb8VPUcUOBkGhGD6OyRQ&oh=00_AfnFrHiXsFDniiCw8gbeqJB7KAxzP85CvzLpm5BXnXAoGQ&oe=693C91DE"
-  },
-  {
-    "titulo": "Balcão Madesa Glamy 60 cm",
-    "preco": "R$ 150",
-    "id": "731359602764066",
-    "thumbnail": "https://scontent.fbnu9-1.fna.fbcdn.net/v/t39.84726-6/594313964_852628883809964_15509800136676865_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=108&ccb=1-7&_nc_sid=92e707&_nc_eui2=AeHXMa2WtR5dsyL066Yt-NnXKdvUreHn33Ep29St4effcTKo0_kmzgjhx55GsZJD6Z6h_hVTjpYyZKIoaFW0odzo&_nc_ohc=wB0wilXnGTwQ7kNvwGFJJKy&_nc_oc=AdmmMoxUuokF4FQwVEzGldJFYtNO92hH_Ip9SLmVJyezjb-6HlO-6kdLxdEp_jdOMa5w2J0ApZWO_YToXdg45j9n&_nc_zt=14&_nc_ht=scontent.fbnu9-1.fna&_nc_gid=-Z3d8QgKp69kUIZ3hzER6Q&oh=00_Afn8n6m0KpPd-Olh-NN0n0t0GZXJ_-kY1ol9z9HU33CMSQ&oe=693CA0BE"
-  },
+const FURNITURE_DATA = [   
   {
     "titulo": "Forno Elétrico de Bancada Muller Vidro Espelhado 44 litros",
     "preco": "R$ 400",
@@ -30,12 +18,6 @@ const FURNITURE_DATA = [
     "preco": "R$ 1.100",
     "id": "729974456250951",
     "thumbnail": "https://scontent.fbnu9-1.fna.fbcdn.net/v/t39.84726-6/594062178_1172142861764223_8949948739676483916_n.jpg?stp=c0.0.261.261a_dst-jpg_p261x260_tt6&_nc_cat=110&_nc_sid=92e707&_nc_eui2=AeHAPkObaqAPD7KhbUCfKWVqvgtOcj5M-qa-C05yPkz6pqj3wa0zZajDqmCSXeWiyCsfJdJ01YjP47w-6xAiLe1c&_nc_ohc=bYcbE-Mo6CsQ7kNvwFNG3MJ&_nc_oc=AdmTkQscN2HGgc1sKjlAdh6PfroQQpTVQdIAEKUD3dCzGN3r0NxKPhSQstjOawZPNAUZ3PHAI8Y2cJln-xFEttGR&_nc_zt=14&_nc_ht=scontent.fbnu9-1.fna&_nc_gid=x-fb8VPUcUOBkGhGD6OyRQ&oh=00_Aflvu2ZL5r938KuYkK8DXe6IMb74D8Gd4209sXBRlOd8Bw&oe=693C88FF"
-  },
-  {
-    "titulo": "Mesa de Cabeceira 2 Gavetas + Nicho em MDF| Excelente Estado",
-    "preco": "R$ 100",
-    "id": "1358009728621655",
-    "thumbnail": "https://scontent.fbnu11-1.fna.fbcdn.net/v/t39.84726-6/593593327_2090878401655081_9148311182457201679_n.jpg?stp=c0.0.261.261a_dst-jpg_p261x260_tt6&_nc_cat=100&_nc_sid=92e707&_nc_eui2=AeF6Y7zBhrIe7EoRuhqzmgCy6QP2Ae4u4SjpA_YB7i7hKAhFU1Cpa4Y-XkBbPtU9p7cLHmr9cpWQH_KGfYppmQLw&_nc_ohc=cqAqEfReJ5UQ7kNvwE9zedf&_nc_oc=Adk2oKaFW0YMup3bJ_B9BFSLbVsx0nOpkSm4s3KbkHCOElcuowwjDvP5TO0J0iRh3gs6EmcKDh-vH4I6AfUnNkbY&_nc_zt=14&_nc_ht=scontent.fbnu11-1.fna&_nc_gid=x-fb8VPUcUOBkGhGD6OyRQ&oh=00_AfkZSKKsoWwhfzWChamE0q7dpmn-FSCMPvOARnXBGNYAuQ&oe=693CB3A1"
   },
   {
     "titulo": "Nicho / Aparador para Lava e Seca – Moderno e Super Funcional!",
