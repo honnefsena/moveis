@@ -33,13 +33,13 @@ const FURNITURE_DATA = [
   },
   {
     "titulo": "Lava-Louça Brastemp 10 Serviços – Excelente Estado!",
-    "preco": "R$ 900 (original R$ 1.200)",
+    "preco": "R$ 900",
     "id": "3178061449028966",
     "thumbnail": "https://scontent.fbnu11-1.fna.fbcdn.net/v/t39.84726-6/594058448_1406791370869875_6306898235731329942_n.jpg?stp=c0.43.261.261a_dst-jpg_p261x260_tt6&_nc_cat=106&_nc_sid=92e707&_nc_eui2=AeFJY9sZ9UkzVM426jDroESZpmsc0Irv9emmaxzQiu_16aj2qspono0XmmpQahufly_hYsyQlWA27VZhPHmfkFaM&_nc_ohc=xWdt7Q1J7P4Q7kNvwHOfYeg&_nc_oc=Admrth8ZBxrejcVriarfP8_ZEsV_uO1J_6w-SL_90QaI4aOLMLluBqoJ1gESm8IyLV8JTQJlNL2JBwS2PBRlFVCp&_nc_zt=14&_nc_ht=scontent.fbnu11-1.fna&_nc_gid=x-fb8VPUcUOBkGhGD6OyRQ&oh=00_Afn9CQ9SJGLHD2xQqcstNISVJkYcbyIYmFbzdTm-B89yTw&oe=693C994F"
   },
 {
     "titulo": "2 Estantes Industriais – 187 cm x 60 cm (5 Prateleiras)",
-    "preco": "R$ 400 (preço total das duas)",
+    "preco": "R$ 400",
     "id": "831276843161775",
     "thumbnail": "https://scontent.fbnu11-1.fna.fbcdn.net/v/t45.5328-4/590907391_835207996101210_8575458826327583469_n.webp?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_eui2=AeFfCsSG4P3fGeHnoY5Wiw1bIXqm9hi1y3sheqb2GLXLe8tjebsKFIT5fZkmP5FxhbOMsdgErR_mAmQxctPWqsx2&_nc_ohc=frcB2JpDWFUQ7kNvwHlEPOK&_nc_oc=AdnA4O6CxNoj43yqFEh9sHvzceuDrm9ApVOPZ3goO6Qh6oKlJ8NKdNT-CrhIL6t9H8HB6FPAcWufRLcDSxTsDXmv&_nc_zt=23&_nc_ht=scontent.fbnu11-1.fna&_nc_gid=vuuqA41N4l0Ac8Wjp_1DOg&oh=00_AflbhErpseDVESt3EyBuOLbxIqkmEirST2SL5Gt0e0zpDQ&oe=693CB8D5"
   }
