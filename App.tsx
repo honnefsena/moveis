@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import ItemCard from './components/ItemCard';
-import EditModal from './components/EditModal';
 import { FurnitureItem } from './types';
 import { generateInitialItems } from './constants';
 
@@ -101,16 +100,7 @@ const App: React.FC = () => {
           <p>&copy; {new Date().getFullYear()} Móveis Jon & Néia. Feito com React & Gemini.</p>
         </div>
       </footer>
-
-      {/* Modals */}
-      {selectedItem && (
-        <EditModal 
-          item={selectedItem}
-          isOpen={isEditModalOpen}
-          onClose={() => setIsEditModalOpen(false)}
-          onSave={handleSaveItem}
-        />
-      )}
+      
     </div>
   );
 };

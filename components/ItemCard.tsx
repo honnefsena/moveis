@@ -20,21 +20,7 @@ const ItemCard: React.FC<ItemCardProps> = ({ item, onEdit }) => {
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                 <span className="bg-red-500 text-white px-4 py-1 rounded-full font-bold text-sm uppercase tracking-wider transform -rotate-12">Vendido</span>
             </div>
-        )}
-        {/* <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
-          <button
-            onClick={(e) => {
-                e.preventDefault();
-                onEdit(item);
-            }}
-            className="bg-white/90 backdrop-blur text-gray-700 p-2 rounded-full shadow-lg hover:text-indigo-600 hover:scale-110 transition"
-            title="Editar Item"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-            </svg>
-          </button>
-        </div> */}
+        )}        
       </div>
 
       {/* Content */}
